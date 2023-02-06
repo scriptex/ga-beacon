@@ -1,6 +1,4 @@
-[![Analytics](https://ga-beacon.atanas.info/api/analytics?account=UA-83446952-1&page=github.com/scriptex/ga-beacon&pixel)](https://github.com/scriptex/ga-beacon/)
-
-# GA Beacon
+# GA Beacon [![Analytics](https://ga-beacon.atanas.info/api/analytics?account=UA-83446952-1&page=github.com/scriptex/ga-beacon&pixel)](https://github.com/scriptex/ga-beacon/)
 
 > Track your repository visitors using Google Analytics
 
