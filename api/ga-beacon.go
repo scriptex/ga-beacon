@@ -19,12 +19,12 @@ import (
 const beaconURL = "http://www.google-analytics.com/collect"
 
 var (
-	pixel        = mustReadFile("static/pixel.gif")
-	badge        = mustReadFile("static/badge.svg")
-	badgeGif     = mustReadFile("static/badge.gif")
-	badgeFlat    = mustReadFile("static/badge-flat.svg")
-	badgeFlatGif = mustReadFile("static/badge-flat.gif")
-	pageTemplate = template.Must(template.New("page").ParseFiles("page.html"))
+	pixel        = mustReadFile("./static/pixel.gif")
+	badge        = mustReadFile("./static/badge.svg")
+	badgeGif     = mustReadFile("./static/badge.gif")
+	badgeFlat    = mustReadFile("./static/badge-flat.svg")
+	badgeFlatGif = mustReadFile("./static/badge-flat.gif")
+	pageTemplate = template.Must(template.New("page").ParseFiles("./index.html"))
 )
 
 func main() {
@@ -136,7 +136,7 @@ func GaBeacon(w http.ResponseWriter, r *http.Request) {
 			Account: params[0],
 			Referer: refOrg,
 		}
-		if err := pageTemplate.ExecuteTemplate(w, "page.html", templateParams); err != nil {
+		if err := pageTemplate.ExecuteTemplate(w, "index.html", templateParams); err != nil {
 			http.Error(w, "could not show account page", 500)
 			log.Printf("Cannot execute template: %v", err)
 		}
