@@ -1,0 +1,29 @@
+{
+	"name": "ga-beacon",
+	"version": "1.0.0",
+	"description": "A Node JS serverless function which trachs Google Analytics pageview events via image loading",
+	"keywords": [
+		"Analytics Badge",
+		"Google Analytics",
+		"Serverless function"
+	],
+	"homepage": "https://ga-beacon.atanas.info/api/analytics?account=UA-83446952-1&page=github.com/scriptex/ga-beacon&pixel",
+	"bugs": {
+		"url": "https://github.com/scriptex/ga-beacon/issues",
+		"email": "hi@atanas.info"
+	},
+	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"main": "api/analytics.ts",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/ga-beacon"
+	},
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "18.11.19",
+		"@vercel/node": "2.9.0"
+	}
+}

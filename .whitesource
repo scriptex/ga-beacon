@@ -1,14 +1,11 @@
 {
-  "scanSettings": {
-    "baseBranches": []
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  }
+	"generalSettings": {
+		"shouldScanRepo": true
+	},
+	"checkRunSettings": {
+		"vulnerableCheckRunConclusionLevel": "success"
+	},
+	"issueSettings": {
+		"minSeverityLevel": "LOW"
+	}
 }
