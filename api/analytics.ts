@@ -25,13 +25,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
 		userAgent = userAgentString;
 	}
 
-	await fetch(url, {
+	const capture = await fetch(url, {
 		method: 'POST',
 		headers: {
 			'User-Agent': userAgent,
 			'Content-Type': 'application/x-www-form-urlencoded'
 		}
 	}).catch(e => e);
+
+	console.log(capture);
 
 	const imagePath = join(process.cwd(), 'public', isFlat ? 'badge-flat.svg' : isPixel ? 'pixel.svg' : 'badge.svg');
 	const imageStream = createReadStream(imagePath);
