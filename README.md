@@ -1,4 +1,4 @@
-# Google Analytics Beacon [![Analytics](https://ga-beacon.atanas.info/UA-83446952-1/ga-beacon/readme?pixel)](https://github.com/scriptex/ga-beacon)
+# Google Analytics Beacon [![Analytics](https://ga-beacon.atanas.info/UA-83446952-1/github.com/scriptex/ga-beacon/README.md?pixel)](https://github.com/scriptex/ga-beacon)
 
 Sometimes it is impossible to embed the JavaScript tracking code provided by Google Analytics: the host page does not allow arbitrary JavaScript, and there is no Google Analytics integration. However, not all is lost! **If you can embed a simple image (pixel tracker), then you can beacon data to Google Analytics.** For a great, hands-on explanation of how this works, check out the following guides:
 
@@ -18,25 +18,25 @@ First, log in to your Google Analytics account and [set up a new property](https
 
 -   Select "Website", use new "Universal Analytics" tracking
 -   **Website name:** anything you want (e.g. GitHub projects)
--   **WebSite URL: https://ga-beacon-361907.ew.r.appspot.com/**
+-   **WebSite URL: https://ga-beacon.atanas.info/**
 -   Click "Get Tracking ID", copy the `UA-XXXXX-X` ID on next page
 
 Next, add a tracking image to the pages you want to track:
 
--   _https://ga-beacon-361907.ew.r.appspot.com/UA-XXXXX-X/insert/any/path_
+-   _https://ga-beacon.atanas.info/UA-XXXXX-X/insert/any/path_
 -   `UA-XXXXX-X` should be your tracking ID
 -   `insert/any/path` is an arbitrary path. For best results specify a meaningful and self-descriptive path. You have to do this manually, the beacon won't automatically record the page path it's embedded on.
 
 Example tracker markup if you are using Markdown:
 
 ```markdown
-[![Analytics](https://ga-beacon-361907.ew.r.appspot.com/UA-XXXXX-X/welcome-page)](https://github.com/scriptex/ga-beacon)
+[![Analytics](https://ga-beacon.atanas.info/UA-83446952-1/github.com/scriptex/ga-beacon)](https://github.com/scriptex/ga-beacon)
 ```
 
 Or RDoc:
 
 ```rdoc
-{<img src="https://ga-beacon-361907.ew.r.appspot.com/UA-XXXXX-X/welcome-page" />}[https://github.com/scriptex/ga-beacon]
+{<img src="https://ga-beacon.atanas.info/UA-83446952-1/github.com/scriptex/ga-beacon" />}[https://github.com/scriptex/ga-beacon]
 ```
 
 If you prefer, you can skip the badge and use a transparent pixel. To do so, simply append `?pixel` to the image URL. There are also "flat" style variants available, which are available when appending `?flat` or `?flat-gif` to the image URL. And that's it, add the tracker image to the pages you want to track and then head to your Google Analytics account to see real-time and aggregated visit analytics for your projects!
