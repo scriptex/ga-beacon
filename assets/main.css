@@ -107,6 +107,39 @@ button {
 	cursor: pointer;
 }
 
+button span {
+	color: #fff;
+	line-height: 1.2;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 50%;
+	left: 150%;
+	transform: translateY(-50%);
+	padding: 0.25rem;
+	background-color: #000;
+	transition: all 0.35s ease-in-out;
+}
+
+button span::before {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	border-width: 0.75rem;
+	border-style: solid;
+	border-color: transparent #000 transparent transparent;
+	margin-top: -0.75rem;
+}
+
+button span.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
 footer {
 	text-align: center;
 	padding-top: 1rem;
