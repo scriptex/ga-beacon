@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>GA Beacon</title>
+
+		<link rel="stylesheet" href="/assets/main.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		/>
+
+		<link rel="shortcut icon" type="image/x-icon" href="https://atanas.info/images/favicon/favicon.ico" />
+
+		<script
+			src="https://unpkg.com/scriptex-socials"
+			async
+			integrity="sha384-FDS8WECJvE4bGb+arLPh3DSv0mrVHD+hJRf+UaM6rVMT+wBleSgUlog90rrtgHH1"
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			(function (d, h, m) {
+				var js,
+					fjs = d.getElementsByTagName(h)[0];
+				if (d.getElementById(m)) {
+					return;
+				}
+				js = d.createElement(h);
+				js.id = m;
+				js.onload = function () {
+					window.makerWidgetComInit({
+						position: 'left',
+						widget: 'egtvfprlpcdjg1i4-8syknhxgseddkfli-j45otk13qspl7fts'
+					});
+				};
+				js.src = 'https://makerwidget.com/js/embed.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			})(document, 'script', 'dhm');
+		</script>
+	</head>
+	<body>
+		<a
+			href="https://github.com/scriptex/AnimateMe"
+			title="See code on Github"
+			class="github-fork-ribbon"
+			data-ribbon="See code on Github"
+		>
+			See code on Github
+		</a>
+
+		<header>
+			<h1>GA Beacon</h1>
+
+			<p>Embed a simple image (pixel tracker) and beacon data to Google Analytics.</p>
+		</header>
+
+		<main id="app"></main>
+
+		<footer>
+			<social-links></social-links>
+		</footer>
+
+		<script type="module" src="/assets/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: monospace;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+p,
+h1 {
+	margin: 1rem 0;
+}
+
+main,
+header {
+	max-width: 37.5rem;
+	width: 100%;
+	padding: 0 1rem;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+label {
+	margin-bottom: 0.25rem;
+}
+
+div {
+	padding-bottom: 1rem;
+}
+
+input[type='text'] {
+	width: 100%;
+	display: block;
+	padding: 0.5rem;
+	border: 1px solid;
+	border-radius: 0;
+	box-shadow: none;
+	appearance: none;
+}
+
+ul,
+li,
+label,
+input[type='radio'] {
+	display: inline-block;
+	vertical-align: top;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	padding-left: 1rem;
+}
+
+input[type='radio'] {
+	margin-top: 1px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding: 0.5rem 4rem 0.5rem 0.5rem;
+	border: 1px solid;
+	background-color: #e8e8e8;
+}
+
+section p {
+	white-space: nowrap;
+	padding: 0.25rem 0;
+	margin: 0;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+button {
+	line-height: 1;
+	width: 3rem;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	padding: 0.25rem;
+	border: 1px solid;
+	border-radius: 0;
+	box-shadow: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+button span {
+	color: #fff;
+	line-height: 1.2;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 50%;
+	left: 150%;
+	transform: translateY(-50%);
+	padding: 0.25rem;
+	background-color: #000;
+	transition: all 0.35s ease-in-out;
+}
+
+button span::before {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	border-width: 0.75rem;
+	border-style: solid;
+	border-color: transparent #000 transparent transparent;
+	margin-top: -0.75rem;
+}
+
+button span.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+footer {
+	text-align: center;
+	padding-top: 1rem;
+}
