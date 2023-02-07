@@ -1,0 +1,13 @@
+.editorconfig
+.gitattributes
+.github
+.nvmrc
+.prettierignore
+.prettierrc
+.whitesource
+LICENSE
+README.md
+\_.config.yml
+\_config.yml
+renovate.json
+yarn.lock

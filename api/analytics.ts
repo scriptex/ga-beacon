@@ -8,16 +8,17 @@ const COOKIE_HEADER = 'x-ga-beacon-id';
 
 export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
 	const {
-		query: { flat, page, pixel, account }
+		query: { flat, page, pixel, account },
+		headers
 	} = req;
 
-	const cid = req.headers[COOKIE_HEADER] || randomBytes(16).toString('hex');
+	const cid = headers[COOKIE_HEADER] || randomBytes(16).toString('hex');
 	const url = `http://www.google-analytics.com/collect?v=1&t=pageview&cid=${cid}&tid=${account}&dp=${page}`;
 
 	const isFlat = typeof flat !== 'undefined';
 	const isPixel = typeof pixel !== 'undefined';
 
-	const userAgentString = req.headers['User-Agent'];
+	const userAgentString = headers['User-Agent'];
 
 	let userAgent;
 
@@ -33,11 +34,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
 			'User-Agent': userAgent,
 			'Content-Type': 'application/x-www-form-urlencoded'
 		}
-	}).catch(e => e);
+	})
+		.then(r => r.text())
+		.catch(e => e);
 
-	console.log(capture);
-
-	const imagePath = join(process.cwd(), 'public', isFlat ? 'badge-flat.svg' : isPixel ? 'pixel.svg' : 'badge.svg');
+	const image = isFlat ? 'badge-flat' : isPixel ? 'pixel' : 'badge';
+	const imagePath = join(process.cwd(), 'public', `${image}.svg`);
 	const imageStream = createReadStream(imagePath);
 
 	await new Promise(resolve => {
