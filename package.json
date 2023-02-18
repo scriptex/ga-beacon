@@ -23,7 +23,7 @@
 	"scripts": {},
 	"dependencies": {},
 	"devDependencies": {
-		"@types/node": "18.13.0",
+		"@types/node": "18.14.0",
 		"@vercel/node": "2.9.6"
 	}
 }
