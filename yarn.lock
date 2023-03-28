@@ -110,25 +110,25 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.10.tgz#4ee2171c3306a185d1208dad5f44dae3dee4cfe3"
   integrity sha512-9avDaQJczATcXgfmMAW3MIWArOO7A+m90vuCFLr8AotWf8igO/mRoYukrk2cqZVtv38tHs33retzHEilM7FpeQ==
 
-"@vercel/build-utils@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-6.5.0.tgz#12b3c246abc50148e2dc779fb3ab428887ac0e46"
-  integrity sha512-DMM2YY2/cZ6UWME/JBoHkXu0b2NRNDuVlHN+zPyL+QldLsFi1NnAKFdj8vHmhlgJvF4ba9ZAEe8ZA7w+XihELQ==
+"@vercel/build-utils@6.6.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-6.6.0.tgz#c4d21301c38f659134b96ed0c7ec56c0bb31ead9"
+  integrity sha512-FkNuEainnqjoEjcqvaeP448F6Ups5DNAOfrpB6HfC+UX9xvWwoaOq1GPh8YMwplrCvCXruC9tSnIzZRstLAssQ==
 
-"@vercel/node-bridge@3.1.14":
-  version "3.1.14"
-  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-3.1.14.tgz#992b8715ca8537a190ff58aa828aca679290da0b"
-  integrity sha512-TAbo0rwBenmWywcEup+5lZgr6ILPPq55P33JRX+oJJuTxYib0NqVj47gEvLTxaj3MoJFgp0iDlC9A0uAf4ykxQ==
+"@vercel/node-bridge@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-4.0.0.tgz#3214ff14c9388cb9bc3e78023ff618d3410b605d"
+  integrity sha512-617HSGelTGR68s0kqsPV0R2UiSvcw3Zf5Yv32S5NN4AH5TZGRr5DQJ3ATr4C/HrK7CHK5B7FDVrv2JebdVpPYQ==
 
-"@vercel/node@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.10.0.tgz#ff4a7ce597d8ada7f41e9ddf386502f2744a0188"
-  integrity sha512-MSdfKPct0KIuz2NBHmmI44FKvA3CAehm+Miu5qMA2Aj29vQw2/7yf3bR4L3gUluLFZvg5xRg6jMG+3XRRrmA8g==
+"@vercel/node@2.10.1":
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.10.1.tgz#9b5c7f5c9a4d811e21ea421fdaba53d43006563a"
+  integrity sha512-+3rMKeo+Yn9B61jJ2g2TsMIZmEBrv5DLpQ1zQHjEj3fEg5kSqWRcf/c17Kku9Fyrel5gucAfBgnOmHxpkejqxQ==
   dependencies:
     "@edge-runtime/vm" "2.0.0"
     "@types/node" "14.18.33"
-    "@vercel/build-utils" "6.5.0"
-    "@vercel/node-bridge" "3.1.14"
+    "@vercel/build-utils" "6.6.0"
+    "@vercel/node-bridge" "4.0.0"
     "@vercel/static-config" "2.0.14"
     edge-runtime "2.0.0"
     esbuild "0.14.47"
