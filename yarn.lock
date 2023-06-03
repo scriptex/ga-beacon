@@ -135,25 +135,25 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.16.tgz#3b64862856c7874ccf7439e6bab872d245c86d8e"
   integrity sha512-NpaM49IGQQAUlBhHMF82QH80J08os4ZmyF9MkpCzWAGuOHqE4gTEbhzd7L3l5LmWuZ6E0OiC1FweQ4tsiW35+g==
 
-"@vercel/build-utils@6.7.4":
-  version "6.7.4"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-6.7.4.tgz#224b1f92a9690b454f48bec2d9da89c1dd873c3c"
-  integrity sha512-xpeGfnDFMGr33Bod0a5X4ODQvCELh0Pf+5hG6Z2lhAa7I1USFXvCp5jlgEWQSccx07Ff8V6SgBXtedCJbK9J/A==
+"@vercel/build-utils@6.7.5":
+  version "6.7.5"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-6.7.5.tgz#b35f92f1c3907697f608f8c1ee236fe46c4d11c3"
+  integrity sha512-nzglYEz9BvZH0lptfTtTVDDD3Dyn31gnBGChOUT7J1jkzlMT1IReuysgJPisaWk4v92Ax5SpZL35I0lOQdfKwQ==
 
 "@vercel/error-utils@1.0.10":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-1.0.10.tgz#6530e9c930d5cf4c7f96045ec3a0bccaf2e6b14c"
   integrity sha512-nsKy2sy+pjUWyKI1V/XXKspVzHMYgSalmj5+EsKWFXZbnNZicqxNtMR94J8Hs7SB4TQxh0s4KhczJtL59AVGMg==
 
-"@vercel/node@2.14.4":
-  version "2.14.4"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.14.4.tgz#cd2e9e00fbc7daca19eabe2e547e0b976c696f84"
-  integrity sha512-DhwOpcOzFzzqzTdosEymSIg7kE8XtOJfuDfHWy4rfOcc+YB8DcgxiHBNa/sVFwRkQVXdRQ0Uv6MunyuVr1Zqhw==
+"@vercel/node@2.14.5":
+  version "2.14.5"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.14.5.tgz#7d53f14f255432edea1ed879773c7b64925f4432"
+  integrity sha512-0vzzeIheLWSxoF/1zMG8GwZxdxOvNLRgDMlClljCqiSa5MIXtTsmCj93JHeYo6BWgvIbiR5XrD0vt2IYqFQCug==
   dependencies:
     "@edge-runtime/vm" "2.0.0"
     "@types/node" "14.18.33"
     "@types/node-fetch" "2.6.3"
-    "@vercel/build-utils" "6.7.4"
+    "@vercel/build-utils" "6.7.5"
     "@vercel/error-utils" "1.0.10"
     "@vercel/static-config" "2.0.17"
     async-listen "3.0.0"
