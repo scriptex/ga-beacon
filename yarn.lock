@@ -150,10 +150,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-1.0.10.tgz#6530e9c930d5cf4c7f96045ec3a0bccaf2e6b14c"
   integrity sha512-nsKy2sy+pjUWyKI1V/XXKspVzHMYgSalmj5+EsKWFXZbnNZicqxNtMR94J8Hs7SB4TQxh0s4KhczJtL59AVGMg==
 
-"@vercel/node@2.15.0":
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.15.0.tgz#a58a9f4248d603d6fb320fe7503840b1b163c27f"
-  integrity sha512-Wtvi0f45t7JIY8piFrlR26X7wAiezl8I6JybjkScY8jRvsSL2latbIaLHkggDwUY49DG9l+fIVmpcPcQvYSROA==
+"@vercel/node@2.15.1":
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.15.1.tgz#f9bb0edcc74d465277b1ccdbb4a22fefc5abe022"
+  integrity sha512-TcncacgAnnrRlvuEWvZEOEP8BDuoDaEzMfMTpNa97Pj2vofYdGcXHVOVIGWrPPGh4TQoZQ48JlUTo4PfXgsOaA==
   dependencies:
     "@edge-runtime/node-utils" "2.0.3"
     "@edge-runtime/primitives" "2.1.2"
