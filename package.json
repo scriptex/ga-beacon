@@ -24,6 +24,6 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "22.10.2",
-		"@vercel/node": "3.2.29"
+		"@vercel/node": "5.0.0"
 	}
 }
