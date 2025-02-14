@@ -178,10 +178,10 @@
   dependencies:
     undici-types "~6.20.0"
 
-"@vercel/build-utils@9.0.1":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-9.0.1.tgz#5135a6f5e4908bad6e4642914b56963bf545d242"
-  integrity sha512-pG/izEqA0AGyqQj6QBfGoTOKU9FPG18sYw9qpncEq00uA+J4Ly4e8ssNbENsXtnXqkMjeoS3c5ncR3jT0bOyiA==
+"@vercel/build-utils@9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-9.1.1.tgz#b297f3d830f41d2e1be2ffc9ff505c912a4ca5f1"
+  integrity sha512-0i8mGMYfi2tX38vANh3aCcPm9OXR5iDz/vxW0kVUtQQluFGK9bWi6nbEmD2bKWw85NC6N4QyIY3eU9M4dUXHxA==
 
 "@vercel/error-utils@2.0.3":
   version "2.0.3"
@@ -206,16 +206,16 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.0.2.tgz#0ace971d4f67f6f4635b1a5136d036222dbeda2a"
-  integrity sha512-UcUVBC6i4j3WPxLA5GYnSvRd/E1fpqJ5dnMZMLromGCTzIXaw+Uzj7bsSSQ2Y9yPtwnWWrcEDmF3IumSTcdr/w==
+"@vercel/node@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.0.5.tgz#0d3698b1197e4e21be8353aa782ddf289e937f17"
+  integrity sha512-oPBHI/4flbeu3/r6zDtlPZCGo61XfQeiwICoH9FPQd7UDqBocIvGYxaZ4UheRIadLyZFeUaz55I/n8tOyKYPRA==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "16.18.11"
-    "@vercel/build-utils" "9.0.1"
+    "@vercel/build-utils" "9.1.1"
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.27.10"
     "@vercel/static-config" "3.0.0"
@@ -227,6 +227,7 @@
     etag "1.8.1"
     node-fetch "2.6.9"
     path-to-regexp "6.2.1"
+    path-to-regexp-updated "npm:path-to-regexp@6.3.0"
     ts-morph "12.0.0"
     ts-node "10.9.1"
     typescript "4.9.5"
@@ -890,6 +891,11 @@ path-scurry@^1.11.1:
   dependencies:
     lru-cache "^10.2.0"
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
+
+"path-to-regexp-updated@npm:path-to-regexp@6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.3.0.tgz#2b6a26a337737a8e1416f9272ed0766b1c0389f4"
+  integrity sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==
 
 path-to-regexp@6.2.1:
   version "6.2.1"
