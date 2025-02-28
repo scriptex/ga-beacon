@@ -171,17 +171,17 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
   integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
 
-"@types/node@22.13.4":
-  version "22.13.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.4.tgz#3fe454d77cd4a2d73c214008b3e331bfaaf5038a"
-  integrity sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==
+"@types/node@22.13.5":
+  version "22.13.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.5.tgz#23add1d71acddab2c6a4d31db89c0f98d330b511"
+  integrity sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==
   dependencies:
     undici-types "~6.20.0"
 
-"@vercel/build-utils@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-10.0.1.tgz#ddc0a8d5c17ec6181fa5a20647ea1c460cbe9d8f"
-  integrity sha512-UcmSbYmdWCBojUHD2SYZ5KP1iUAZsbqWfTILo2evbwAk/A7eEAL0y6mgE+KDC/6nFhsHRRdg0rnhyG9opJMRQw==
+"@vercel/build-utils@10.3.1":
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-10.3.1.tgz#9c176ae121d5665c47b9fd0f016d453786b83f9a"
+  integrity sha512-aWVzwW4UYwrO0yxHQBSiFn/P665S3pORKTRbmdQ/DXMvzsvGtmyG2zeSFApV2WJ3fH46V74i8Lv9IouhmYkbVQ==
 
 "@vercel/error-utils@2.0.3":
   version "2.0.3"
@@ -206,16 +206,16 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.1.6":
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.1.6.tgz#5aca7684fab0fc94a861315acdc114668f1da3eb"
-  integrity sha512-1cUwgGckpi3l4m4qx0wWit4eIMKjLADaOEBKvziiJdx/XPQXlD0xoAFrHvqLNcwY6hoFsbBzFhIZYBiNBTds+A==
+"@vercel/node@5.1.10":
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.1.10.tgz#77fbfbedfdd0fe6e44a4413a7cb03f23a990a485"
+  integrity sha512-VHY/VRu4AtzzHHX2aNOjHQ2LzQvkmaahTJKJ8zAfGseivvwOfFkJ7+TWcNWBx2yimCJLezqUcGmbUrru0r2I1g==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "16.18.11"
-    "@vercel/build-utils" "10.0.1"
+    "@vercel/build-utils" "10.3.1"
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.27.10"
     "@vercel/static-config" "3.0.0"
