@@ -171,27 +171,27 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
   integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
 
-"@types/node@22.17.1":
-  version "22.17.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.17.1.tgz#484a755050497ebc3b37ff5adb7470f2e3ea5f5b"
-  integrity sha512-y3tBaz+rjspDTylNjAX37jEC3TETEFGNJL6uQDxwF9/8GLLIjW1rvVHlynyuUKMnMr1Roq8jOv3vkopBjC4/VA==
+"@types/node@22.17.2":
+  version "22.17.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.17.2.tgz#47a93d6f4b79327da63af727e7c54e8cab8c4d33"
+  integrity sha512-gL6z5N9Jm9mhY+U2KXZpteb+09zyffliRkZyZOHODGATyC5B1Jt/7TzuuiLkFsSUMLbS1OLmlj/E+/3KF4Q/4w==
   dependencies:
     undici-types "~6.21.0"
 
-"@vercel/build-utils@11.0.1":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-11.0.1.tgz#aaa5df8158de77093c99deb4bcbb8185e57d585c"
-  integrity sha512-eEzx3RVyqOTbf+XLmX8fsW7UGlVhN4W1MSBcqvkbtK2mtM1sHdXLv/xDjc5akhISJqZ9uW6UmyKVP+XpdWgfCA==
+"@vercel/build-utils@11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-11.0.2.tgz#b8bc771fd51753ba2c6e57a88c50a23de21ea6cf"
+  integrity sha512-Y48OT9IsvAFU21LJ3m5SbrXpQaD++h4v4nQoQjCUDZORxXzPf3doVQfrQBBIX45xoSkfq/Fuq0VNF0yRbJw/aA==
 
 "@vercel/error-utils@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/nft@0.29.2":
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.29.2.tgz#0a852a67f5f24ee7c55139f065d46175688fcbbb"
-  integrity sha512-A/Si4mrTkQqJ6EXJKv5EYCDQ3NL6nJXxG8VGXePsaiQigsomHYQC9xSpX8qGk7AEZk4b1ssbYIqJ0ISQQ7bfcA==
+"@vercel/nft@0.30.1":
+  version "0.30.1"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.30.1.tgz#75a60ecf3aee6113ec0d4082d66ad5dd39ab4eca"
+  integrity sha512-2mgJZv4AYBFkD/nJ4QmiX5Ymxi+AisPLPcS/KPXVqniyQNqKXX+wjieAbDXQP3HcogfEbpHoRMs49Cd4pfkk8g==
   dependencies:
     "@mapbox/node-pre-gyp" "^2.0.0"
     "@rollup/pluginutils" "^5.1.3"
@@ -206,19 +206,19 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.3.12":
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.3.12.tgz#72e7907b839977376aa387e8fc0df42cd16d6413"
-  integrity sha512-IcnV+IMeccnnm6YhbMvorYlUz853EI443Ynof1NoN7YsiAcpaqTDsTyxDi064wc9BYBusGvqaPSVurOlcXehZg==
+"@vercel/node@5.3.16":
+  version "5.3.16"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.3.16.tgz#b2f59aefdae1fa401b044b70fa42124d7ad2253a"
+  integrity sha512-S9lsnlWbYKGfPi66zNqs1HtEmvae92Jliie3U/6ckR9nBAVAAV9+miWjR7Sv/MsXBtdxV+l+8Z3HGw7WuGE9bw==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "16.18.11"
-    "@vercel/build-utils" "11.0.1"
+    "@vercel/build-utils" "11.0.2"
     "@vercel/error-utils" "2.0.3"
-    "@vercel/nft" "0.29.2"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/nft" "0.30.1"
+    "@vercel/static-config" "3.1.2"
     async-listen "3.0.0"
     cjs-module-lexer "1.2.3"
     edge-runtime "2.5.9"
@@ -233,10 +233,10 @@
     typescript "4.9.5"
     undici "5.28.4"
 
-"@vercel/static-config@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@vercel/static-config/-/static-config-3.1.1.tgz#176e594bb1b3d8771f52188ffcf6c68a15f9981c"
-  integrity sha512-IRtKnm9N1Uqd2ayIbLPjRtdwcl1GTWvqF1PuEVNm9O43kmoI+m9VpGlW8oga+5LQq1LmJ2Y67zHr7NbjrH1rrw==
+"@vercel/static-config@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@vercel/static-config/-/static-config-3.1.2.tgz#813bd7584fe3ef003634c3a9fd5d72095d2003d6"
+  integrity sha512-2d+TXr6K30w86a+WbMbGm2W91O0UzO5VeemZYBBUJbCjk/5FLLGIi8aV6RS2+WmaRvtcqNTn2pUA7nCOK3bGcQ==
   dependencies:
     ajv "8.6.3"
     json-schema-to-ts "1.6.4"
