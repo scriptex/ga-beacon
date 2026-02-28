@@ -393,19 +393,19 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@24.10.13":
-  version "24.10.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.13.tgz#2fac25c0e30f3848e19912c3b8791a28370e9e07"
-  integrity sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==
+"@types/node@24.10.15":
+  version "24.10.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.15.tgz#83e016a4c3dbf4e672dc257cf4c941527f1a3aa3"
+  integrity sha512-BgjLoRuSr0MTI5wA6gMw9Xy0sFudAaUuvrnjgGx9wZ522fYYLA5SYJ+1Y30vTcJEG+DRCyDHx/gzQVfofYzSdg==
   dependencies:
     undici-types "~7.16.0"
 
-"@vercel/build-utils@13.4.0":
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.4.0.tgz#b6e93c89967386a3e69eb3378c49291aa5c297a9"
-  integrity sha512-hGBYt+olxUtDZu0W8DKl4NjY8tQC1eJUxDpkJdOhcugap4NnHeHZQ33vEKs0Z72bYlqotgu0AoEOv+ri5rlh4w==
+"@vercel/build-utils@13.6.1":
+  version "13.6.1"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.6.1.tgz#226c65f81299db9f3b305a93cc870293ac035552"
+  integrity sha512-/qRDC8swTUDrdQLkKBnyY8TSk+DeI8RTOIhAba2BwCVCHaZoLF8+sdOCeHud1QJk/3a8R5rAmMQOvEI4P2FRZQ==
   dependencies:
-    "@vercel/python-analysis" "0.4.1"
+    "@vercel/python-analysis" "0.8.1"
 
 "@vercel/error-utils@2.0.3":
   version "2.0.3"
@@ -430,16 +430,16 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.6.3":
-  version "5.6.3"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.6.3.tgz#b5d3c68fa30ba1a273895305d3589957a8822580"
-  integrity sha512-sordxYoSnYquTxQ2sSIubukhZtAThSAjT+A+ACFac9nkOWyPfW83eQINPWBD/xotdNm3w+1v/afkt427GbXfNg==
+"@vercel/node@5.6.9":
+  version "5.6.9"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.6.9.tgz#598593aeee016e088f1cf159d7fb4764f83293d9"
+  integrity sha512-SiLToxNIGNSaELFhMorNAWIW1LkBCOEIw7+P3MxDxeaY9RAn5nqymT4uLg95L94JvI4dAFZbdfS7ntgmEfB64A==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "20.11.0"
-    "@vercel/build-utils" "13.4.0"
+    "@vercel/build-utils" "13.6.1"
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "1.1.1"
     "@vercel/static-config" "3.1.2"
@@ -458,10 +458,10 @@
     typescript "npm:typescript@5.9.3"
     undici "5.28.4"
 
-"@vercel/python-analysis@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@vercel/python-analysis/-/python-analysis-0.4.1.tgz#518288956d9bc049c7a2f829802717ab4bba5207"
-  integrity sha512-Ae6zayRNAO//z9ULOV+T8sjJFJLfA0OU540/BDkaVWHWhlqElIA7uyi71WuD7Ls06CDVpKYNRysv3keJaVbwow==
+"@vercel/python-analysis@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@vercel/python-analysis/-/python-analysis-0.8.1.tgz#1f5ead7f1d0b27d1463a27363efafb084f4085ce"
+  integrity sha512-gW1pZDqJaTcjZYPvNhXXLOPgLu6vJW9PKweJoX2f8EKAoW+JIiYncl8AddcSlngNhQRG7SqUl2u3qosZM4kUBA==
   dependencies:
     "@bytecodealliance/preview2-shim" "0.17.6"
     "@renovatebot/pep440" "4.2.1"
