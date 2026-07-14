@@ -393,17 +393,17 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@24.13.2":
-  version "24.13.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.13.2.tgz#3b9b280a7055128359f125eb1067d9a190f39854"
-  integrity sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==
+"@types/node@24.13.3":
+  version "24.13.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.13.3.tgz#49f18bd3c647866dcda51a0756c145e14590ce16"
+  integrity sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==
   dependencies:
     undici-types "~7.18.0"
 
-"@vercel/build-utils@13.32.2":
-  version "13.32.2"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.32.2.tgz#0e2752ebcbe54407df8c2299f0f563eba9c90583"
-  integrity sha512-XgATgMjt2NHF6HHo1wii6f43qlWjaFx3o+9L7aOUPLQgqwgYp2BGwuuBjg8U6sNgut1QsmFBMvNqTAUBvack9Q==
+"@vercel/build-utils@13.33.0":
+  version "13.33.0"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.33.0.tgz#bd7a8e37d9c61034af2220e30c8365f7e46e9351"
+  integrity sha512-vxAcks5cAMSKlWRwu6WSwqxdJtZ2DMpLnxYaIscYVCYIacfDd4kzwZYxxufRb3gk932klAELjxGVCcuFVuxhXA==
   dependencies:
     "@vercel/python-analysis" "0.11.1"
     cjs-module-lexer "1.2.3"
@@ -432,16 +432,16 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.8.22":
-  version "5.8.22"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.8.22.tgz#e3e8e1b46ac005bc8a85a23aa308f1104390082d"
-  integrity sha512-WfciIhDVh9RwFmvrWp7FAdYCBPV94bZvIo4JbaHqZbvBJ2Bmnv/Pgj1fTjjLKfnKTbLJy+8HN1FXB8KYDnwGZQ==
+"@vercel/node@5.8.24":
+  version "5.8.24"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.8.24.tgz#957e986dcc640f385f63ca3be12272cbbc52b037"
+  integrity sha512-Zi5LvZaKZsUZIUCrf16pa1np6HOImygrt6/HMoDOZjcHHaeKZUda+KB/O1CZEp1ipDjvPKK03igELagrj44hiw==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "20.11.0"
-    "@vercel/build-utils" "13.32.2"
+    "@vercel/build-utils" "13.33.0"
     "@vercel/error-utils" "2.2.0"
     "@vercel/nft" "1.10.0"
     "@vercel/static-config" "3.4.0"
