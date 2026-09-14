@@ -534,10 +534,10 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-13.0.0.tgz#9623cb5de681e4ffa3709b5acf09bd4cf8907df5"
-  integrity sha512-GWcW5Ga4n20bewF+kuUvCbgOgCBgK9uKKvOGdDLQ4fhLMDShIwCWmHFcxqOTvNFgeYSD/0CeY3Anwxij2MUrLQ==
+"@vercel/node@13.0.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-13.0.1.tgz#719ffe127d7fbddc87fd30db71fd8248a838e43c"
+  integrity sha512-WpHviLdoReq5oGTQhbljiKZTxshARiSjqN+8dh8GB5icaXTjhneDoWJlQYUw0yd4PSfBeWNJzFMHt+bsSU6d/w==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
